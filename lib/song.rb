@@ -4,14 +4,14 @@
 # .find_by_name can find a song present in @@all by name returns falsey when a song name is not present in @@all
 # .find_or_create_by_name invokes .find_by_name and .create_by_name instead of repeating codereturns the existing Song object (doesn't create a new one) when provided the title of an existing Song creates a new Song object with the provided title if one doesn't already exist
 # .alphabetical returns all the song instances in alphabetical order by song name  
-#    
+# .new_from_filename   
     
     
    
     
   
      (FAILED -9)
-  .new_from_filename
+  
     initializes a song and artist_name based on the filename format (FAILED - 10)
   .create_from_filename
     initializes and saves a song and artist_name based on the filename format (FAILED - 11)
