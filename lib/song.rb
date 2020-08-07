@@ -1,6 +1,6 @@
 # .create instantiates and saves the song, and it returns the new song that was create
-# .new_by_name
-    instantiates a song with a name property
+# .new_by_nameinstantiates a song with a name property
+    
 #
 #
 #
