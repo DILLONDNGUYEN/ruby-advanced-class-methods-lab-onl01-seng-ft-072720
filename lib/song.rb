@@ -1,7 +1,7 @@
 # .create instantiates and saves the song, and it returns the new song that was create
 # .new_by_name instantiates a song with a name property
-# .create_by_nameinstantiates and saves a song with a name property (FAILED - 3)
-    
+# .create_by_name instantiates and saves a song with a name property 
+#    
   .find_by_name
     can find a song present in @@all by name (FAILED - 4)
     returns falsey when a song name is not present in @@all (FAILED - 5)
@@ -17,13 +17,7 @@
     initializes and saves a song and artist_name based on the filename format (FAILED - 11)
   .destroy_all
     clears all the song instances from the @@all array (FAILED - 12)
-#
-#
-#
-#
-#
-#
-#
+
 
 
 class Song
