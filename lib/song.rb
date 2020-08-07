@@ -5,13 +5,13 @@
 # .find_or_create_by_name invokes .find_by_name and .create_by_name instead of repeating codereturns the existing Song object (doesn't create a new one) when provided the title of an existing Song creates a new Song object with the provided title if one doesn't already exist
 # .alphabetical returns all the song instances in alphabetical order by song name  
 # .new_from_filename initializes a song and artist_name based on the filename format  
-#    
+#  .create_from_filename  
 #    
    
     
   
      
-  .create_from_filename
+  
     initializes and saves a song and artist_name based on the filename format (FAILED - 11)
   .destroy_all
     clears all the song instances from the @@all array (FAILED - 12)
