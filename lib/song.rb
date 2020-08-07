@@ -2,7 +2,7 @@
 # .new_by_name instantiates a song with a name property
 # .create_by_name instantiates and saves a song with a name property 
 # .find_by_name can find a song present in @@all by name returns falsey when a song name is not present in @@all
-# .find_or_create_by_name invokes .find_by_name and .create_by_name instead of repeating codereturns the existing Song object (doesn't create a new one) when provided the title of an existing Song (FAILED - 7)
+# .find_or_create_by_name invokes .find_by_name and .create_by_name instead of repeating codereturns the existing Song object (doesn't create a new one) when provided the title of an existing Song 
     creates a new Song object with the provided title if one doesn't already exist (FAILED - 8)
     
     
