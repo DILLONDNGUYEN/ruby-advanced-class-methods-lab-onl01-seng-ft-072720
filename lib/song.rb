@@ -6,18 +6,9 @@
 # .alphabetical returns all the song instances in alphabetical order by song name  
 # .new_from_filename initializes a song and artist_name based on the filename format  
 # .create_from_filename initializes and saves a song and artist_name based on the filename format
-# .destroy_all   clears all the song instances from the @@all array
+# .destroy_all clears all the song instances from the @@all array
    
     
-  
-     
-  
-     
-  
-     (FAILED - 12)
-
-
-
 class Song
   attr_accessor :name, :artist_name
   @@all = []
